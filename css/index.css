@@ -55,9 +55,10 @@ input[type="text"], input[type="email"] {
     background-color: #0078E9;
 }
 #groupe303 {
-    width: 471px;
-    height: 500px;
+    width: 423px;
+    height: 450px;
     border-radius: 10px;
     display: inline-block;
     background-image: url("../images/girlrl\ \(Moyen\)\ 1.png");
+    background-size: contain;
 }
