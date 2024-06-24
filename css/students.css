@@ -194,6 +194,11 @@ tbody > tr {
     border-bottom: solid 4px #0078E9;
 }
 
+#importation {
+    position: relative;
+    width: 931px;
+    margin: auto;
+}
 .input-import {
     border: dashed 2px #A9B4BE;
     border-radius: 8px;
@@ -203,5 +208,6 @@ tbody > tr {
     cursor: pointer;
 }
 .real-input-import {
-    opacity: 0;
+    display: block;
+    opacity: 0.5;
 }
