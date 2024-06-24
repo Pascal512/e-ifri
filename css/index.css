@@ -1,0 +1,63 @@
+body {
+    width: 73%;
+    margin: 0px auto;
+}
+
+header {
+    /*height: 152px;*/
+    margin-top: 16px;
+    padding: 24px 32px 24px 32px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Forms */
+input[type="text"], input[type="email"] {
+    width: calc(100% - 40px);
+    height: 64px;
+    border: 2px solid #6A7E8F;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 0px 20px;
+    margin-top: 6px;
+}
+.submit {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #FF7F04;
+    border-radius: 6px;
+    border: none;
+    height: 64px;
+    width: 100%;
+    margin: 16px 0px 0px;
+}
+
+/* Personnalisés */
+.main {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+/* #frame363 {
+    /* * /
+}
+#frame365 {
+    /* * /
+} */
+#frame367 {
+    align-items: center;
+    display: flex;
+    padding: 0px 16px;
+    width: calc(100% - 32px);
+    height: 88px;
+    color: white;
+    background-color: #0078E9;
+}
+#groupe303 {
+    width: 471px;
+    height: 500px;
+    border-radius: 10px;
+    display: inline-block;
+    background-image: url("../images/girlrl\ \(Moyen\)\ 1.png");
+}

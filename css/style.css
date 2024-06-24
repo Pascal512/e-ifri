@@ -1,0 +1,327 @@
+* {
+    font-family: 'Poppins';
+    color: #1B2329;
+}
+
+/* Navbar */
+.groupe-profil {
+    width: 100px;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F4F6F8;
+    border-radius: 47px;
+    cursor: pointer;
+}
+
+/* Filtre */
+#filtre {
+    display: flex;
+    align-items: center;
+}
+#filtre > select {
+    color: #4A5D6C;
+    padding: 17px 44px 17px 17px;
+    border: solid 1.3px #B8BBC2;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+/* Text */
+.text-gray {
+    color: #4A5D6C;
+}
+.text-gris-pagination {
+    color: #6A7E8F;
+}
+.text-white {
+    color: white;
+}
+.text-14 {
+    font-size: 14px;
+}
+.text-16 {
+    font-size: 16px;
+}
+.text-18 {
+    font-size: 18px;
+}
+.text-24 {
+    font-size: 24px;
+}
+.text-32 {
+    font-size: 32px;
+}
+.text-italique {
+    font-style: italic;
+}
+.text-light {
+    font-weight: lighter;
+}
+.text-center {
+    text-align: center;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-400 {
+    font-weight: 400;
+}
+
+/* Align */
+.align-content-center {
+    align-content: center;
+}
+.vertical-align-middle {
+    vertical-align: bottom;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-space-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+
+/* Display */
+.d-block {
+    display: block;
+}
+.d-flex {
+    display: flex;
+}
+.d-inline {
+    display: inline;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.d-none {
+    display: none;
+}
+
+/* Mouse pointer */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.space-between {
+    align-content: space-between;
+}
+
+.overflow-hiden {
+    overflow: hidden;
+}
+
+/* Sizes */
+.w-auto {
+    width: auto;
+}
+.w-90 {
+    width: 90px;
+}
+.w-184 {
+    width: 184px;
+}
+.w-270 {
+    width: 270px;
+}
+.w-477 {
+    width: 477px;
+}
+.minw-477 {
+    min-width: 477px !important;
+}
+.maxw-477 {
+    max-width: 477px !important;
+}
+.w-80p {
+    width: 80%;
+}
+.w-100p {
+    width: 100%;
+}
+.h-8 {
+    height: 8px;
+}
+.h-64 {
+    height: 64px;
+}
+.mh-490 {
+    height: 490px !important;
+}
+
+/* Margins & padding */
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.m-0 {
+    margin: 0px;
+}
+.mt-16 {
+    margin-top: 16px;
+}
+.mt-32 {
+    margin-top: 32px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.me-10 {
+    margin-right: 10px;
+}
+.me-20 {
+    margin-right: 20px;
+}
+.me-25 {
+    margin-right: 25px;
+}
+.mb-0 {
+    margin-bottom: 0px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.ms--30 {
+    margin-left: -30px;
+}
+.ms-10 {
+    margin-left: 10px;
+}
+.ms-16 {
+    margin-left: 16px;
+}
+.ms-20 {
+    margin-left: 20px;
+}
+.ms-70 {
+    margin-left: 70px;
+}
+.p-0 {
+    padding: 0px;
+}
+.p-30 {
+    padding: 30px;
+}
+.p-60 {
+    padding: 60px;
+}
+.pb-50 {
+    padding-bottom: 50px;
+}
+.ps-20 {
+    padding-left: 40px;
+}
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Drapeau du Bénin */
+.vert-drapeau {
+    background-color: #5A9F69;
+}
+.jaune-drapeau {
+    background-color: #DED843;
+}
+.rouge-drapeau {
+    background-color: #BC6469;
+}
+
+/* Positions */
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+.top-0 {
+    top: 0px;
+}
+.left--30 {
+    left: -30px;
+}
+.left-0 {
+    left: 0px;
+}
+.left-90 {
+    left: 90px;
+}
+.left-180 {
+    left: 180px;
+}
+.float-right {
+    float: right;
+}
+
+/* Blocks */
+.block {
+    display: inline-block;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 280px;
+    height: 100%;
+    padding-top: 20px;
+    background-color: #F4F6F8;
+    border-right: solid 1px #CDD4D9;
+    z-index: 3;
+}
+.aside-element {
+    color: #2E3B44;
+    width: 80%;
+    padding: 20px;
+    border-radius: 6px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.aside-element > img {
+    margin-right: 15px;
+    margin-bottom: -3px;
+}
+.active-aside-element {
+    color: white;
+    background-color: #0078E9;
+}
+
+/* Boutons */
+.btn {
+    border: none;
+    padding: 17px;
+    border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
+}
+.btn > img {
+    margin-bottom: -3px;
+    margin-right: 12px;
+}
+.btn-orange {
+    color: white;
+    background-color: #FF7F04;
+}

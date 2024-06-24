@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-IFRI | Students</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/students.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <img src="./images/logoifri 1.png" alt="Logo d'IFRI" class="mx-auto d-block mb-16">
+        <div class="aside-element active-aside-element">
+            <img src="images/aside/contact_page.png" alt="Icone Étudiants">
+            Étudiants
+        </div>
+        <div class="aside-element">
+            <img src="images/aside/badge.png" alt="Icone Professeurs">
+            Professeurs
+        </div>
+        <div class="aside-element">
+            <img src="images/aside/information.png" alt="Icone informations">
+            Informations
+        </div>
+        <div class="aside-element">
+            <img src="images/aside/cours.png" alt="Icone Cours">
+            Cours
+        </div>
+        <div class="aside-element">
+            <img src="images/aside/calendar_month.png" alt="Icone Emplois du temps">
+            Emplois du temps
+        </div>
+        <div class="aside-element">
+            <img src="images/aside/folder_open.png" alt="Icone Banque d'épreuves">
+            Banque d'épreuves
+        </div>
+        <div class="aside-element">
+            <img src="images/aside/school.png" alt="Icone Résultats">
+            Résultats
+        </div>
+        <div class="aside-element">
+            <img src="images/aside/hand_gesture.png" alt="Icone Boîte à suggestion">
+            Boîte à suggestion
+        </div>
+    </aside>
+    <div id="main">
+        <header>
+            <form id="searchbar">
+                <img src="images/navbar/search.png" alt="search icone" class="me-25 cursor-pointer">
+                <input type="text" placeholder="Rechercher sur cette page">
+            </form>
+            <div class="d-flex justify-content-space-between align-items-center">
+                <div id="notifications">
+                    <img src="images/navbar/notifications.png" alt="Icone notifications">
+                </div>
+                <div class="groupe-profil">
+                    <img src="images/navbar/photo_2023-03-29_11-12-43 1.png" alt="Photo de profil">
+                    <img src="images/navbar/expand_more.png" alt="Voir plus">
+                </div>
+            </div>
+        </header>
+        <div class="w-100p d-flex justify-content-space-between align-items-center mb-30">
+            <div id="filtre">
+                <select name="Promotion" id="slct-promotion">
+                    <option value="Promotion" selected>Promotion</option>
+                    <option value="Licence1">Licence1</option>
+                    <option value="Licence2">Licence2</option>
+                    <option value="Licence3">Licence3</option>
+                    <option value="Master1">Master1</option>
+                    <option value="Master2">Master2</option>
+                </select>
+                <img src="images/filtre/Icon.png" alt="flèche voir plus" class="position-relative left--30">
+                <select name="Diplome" id="slct-diplome">
+                    <option value="Diplôme" selected>Diplôme</option>
+                    <option value="Licence">Licence</option>
+                    <option value="Master">Master</option>
+                </select>
+                <img src="images/filtre/Icon.png" alt="flèche voir plus" class="position-relative left--30">
+                <select name="Filiere" id="slct-filiere">
+                    <option value="Filière" selected>Filière</option>
+                    <option value="GL">GL</option>
+                    <option value="SI">SI</option>
+                    <option value="IM">IM</option>
+                    <option value="IA">IA</option>
+                    <option value="IoT">IoT</option>
+                </select>
+                <img src="images/filtre/Icon.png" alt="flèche voir plus" class="position-relative left--30">
+            </div>
+            <button class="btn btn-orange" id="btn-add-student">
+                <img src="images/filtre/add.png" alt="Nouvel étudiant">
+                Nouvel étudiant
+            </button>
+        </div>
+        <div class="mb-30">
+            <h2 class="fw-500 mb-0">Responsables</h2>
+            <hr class="mb-25">
+            <div class="d-flex">
+                <div class="responsable new-responsable">
+                    <img src="images/add responsable.png" alt="Ajouter responsable">
+                    <p class="text-18 w-184">Ajouter un nouveau responsable</p>
+                </div>
+                <div class="responsable ms-16">
+                    <p class="text-18 fw-500">JOHN Doe</p>
+                    <p>johndoe@gmail.com</p>
+                    <p>97005600</p>
+                </div>
+                <div class="responsable ms-16">
+                    <p class="text-18 fw-500">AJAKA Gustave</p>
+                    <p>gastonajakaA@gmail.com</p>
+                    <p>97325600</p>
+                </div>
+                <div class="responsable ms-16">
+                    <p class="text-18 fw-500">Devon Lane</p>
+                    <p>lanedevon@gmail.com</p>
+                    <p>97005600</p>
+                </div>
+            </div>
+        </div>
+        <div class="mb-30">
+            <h2 class="fw-500 mb-0">Étudiants</h2>
+            <hr class="mb-25">
+            <div id="conteneur-table" class="mb-30">
+                <div class="table-fond-header"></div>
+                <table id="table-etudiants">
+                    <thead>
+                        <tr>
+                            <th>Matricule</th>
+                            <th>Nom</th>
+                            <th>Prénoms</th>
+                            <th>Email</th>
+                            <th>Téléphone</th>
+                            <th>Sexe</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody-etudiants">
+                        <tr class="d-none">
+                            <td>00000001</td>
+                            <td>DOE</td>
+                            <td>John Doe A.</td>
+                            <td>johndoeemail@gmail.com</td>
+                            <td>97 20 56 35</td>
+                            <td>M</td>
+                            <td><img src="images/ADD_MORE.png" alt="Plus d'actions"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="d-flex justify-content-space-between w-80p mx-auto">
+                    <p class="fw-500 text-gris-pagination">1 à 9 sur 1500 étudiants</p>
+                    <div class="d-flex">
+                        <p class="btn-pagination me-10">&lt;</p>
+                        <p class="btn-pagination btn-pagination-active me-10">1</p>
+                        <p class="btn-pagination me-10">2</p>
+                        <p class="btn-pagination me-10">3</p>
+                        <p class="btn-pagination me-10">4</p>
+                        <p class="btn-pagination me-10">...</p>
+                        <p class="btn-pagination me-10">40</p>
+                        <p class="btn-pagination me-10">&gt;</p>
+                        <p class="btn-pagination px-10">tout afficher</p>
+                    </div>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="d-flex justify-content-center w-100p mb-30">
+                <p id="tab-add-student" class="modal-tab-element modal-tab-element-active">Ajout Manuel</p>
+                <p id="tab-import-student" class="modal-tab-element">Importer un fichier</p>
+            </div>
+            <form id="form-new-student"></form>
+            <div class="input-import"></div>
+            <input type="file" class="input-import mx-auto">
+        </div>
+    </div>
+
+    <script src="js/students.js"></script>
+</body>
+</html>
