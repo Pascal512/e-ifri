@@ -175,10 +175,54 @@
                 <p id="tab-add-student" class="modal-tab-element modal-tab-element-active">Ajout Manuel</p>
                 <p id="tab-import-student" class="modal-tab-element">Importer un fichier</p>
             </div>
-            <form id="form-new-student"></form>
-            <div id="importation" class="position-relative">
+            <form id="form-new-student" class="mx-auto justify-content-space-between">
+                <div class="group-form-input-medium">
+                    <label for="new-std-nom">Nom</label>
+                    <input type="text" id="new-std-nom" placeholder="Entrez le nom de l'étudiant" required>
+                </div>
+                <div class="group-form-input-large">
+                    <label for="new-std-nom">Prénoms</label>
+                    <input type="text" id="new-std-prenoms" placeholder="Entrez les prénoms de l'étudiant" required>
+                </div>
+                <div class="group-form-input-medium mt-16">
+                    <label for="new-std-matricule">Matricule</label>
+                    <input type="number" id="new-std-matricule" placeholder="Entrez le matricule de l'étudiant" required>
+                </div>
+                <div class="group-form-input-small mt-16">
+                    <label for="new-std-naissance">Date</label>
+                    <input type="date" id="new-std-naissance" placeholder="Date de naissance" required>
+                </div>
+                <div class="group-form-input-small mt-16">
+                    <label for="new-std-lieu-naissance">Lieu</label>
+                    <input type="text" id="new-std-lieu-naissance" placeholder="Lieu de naissance" required>
+                </div>
+                <div class="group-form-input-small mt-16">
+                    <label for="new-std-sexe">Sexe</label>
+                    <input type="text" id="new-std-sexe" placeholder="Sexe" required>
+                </div>
+                <div class="group-form-input-medium mt-16">
+                    <label for="new-std-telephone">Téléphone</label>
+                    <input type="number" id="new-std-telephone" placeholder="+229" min="22900000000" required>
+                </div>
+                <div class="group-form-input-large mt-16">
+                    <label for="new-std-email">Email</label>
+                    <input type="text" id="new-std-email" placeholder="Entrez le mail de l'étudiant" required>
+                </div>
+                <div class="group-form-input-medium mt-16">
+                    <label for="new-std-adresse">Adresse</label>
+                    <input type="text" id="new-std-adresse" placeholder="Entrez l'adresse de l'étudiant" required>
+                </div>
+            </form>
+            <div id="importation" class="position-relative d-none">
                 <div class="input-import"></div>
                 <input type="file" class="input-import real-input-import mx-auto position-absolute top-0 left-0">
+            </div>
+            <div class="d-flex justify-content-center mt-20">
+                <button class="btn btn-blanc-orange me-25 fw-600" id="btn-add-new-student">
+                    <img src="images/add-orange.png" alt="Nouvel étudiant">
+                    Nouvel étudiant
+                </button>
+                <button class="btn btn-orange" id="btn-validate-add-student">Valider l'ajout</button>
             </div>
         </div>
     </div>

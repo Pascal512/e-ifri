@@ -65,11 +65,14 @@
 .text-center {
     text-align: center;
 }
+.fw-400 {
+    font-weight: 400;
+}
 .fw-500 {
     font-weight: 500;
 }
-.fw-400 {
-    font-weight: 400;
+.fw-600 {
+    font-weight: 600;
 }
 
 /* Align */
@@ -327,4 +330,9 @@
 .btn-orange {
     color: white;
     background-color: #FF7F04;
+}
+.btn-blanc-orange {
+    border: none;
+    background-color: #ffffff00;
+    color: #FF7F04;
 }
